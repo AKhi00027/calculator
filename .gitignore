@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor metadata
+.idea/
+*.iml
+
+# Build outputs
+target/
+**/target/
+out/
+**/out/
+*.class
+
+# Test/report artifacts
+allure-results/
+allure-report/
+**/allure-results/
+**/allure-report/
+**/screenshots/
+
+# Local tool bundles
+.allure/
+**/.allure/

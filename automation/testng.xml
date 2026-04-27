@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Scientific Calculator Suite" verbose="1" parallel="false">
+    <parameter name="baseUrl" value="https://rbihubcodechallenge.github.io/calculator/index.html"/>
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Calculator Tests">
+        <classes>
+            <class name="com.rbihub.calculator.tests.SanitySuiteTest"/>
+            <class name="com.rbihub.calculator.tests.RegressionSuiteTest"/>
+        </classes>
+    </test>
+</suite>
